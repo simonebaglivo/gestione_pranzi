@@ -1,0 +1,33 @@
+.homepage {
+  width: 100%;
+}
+
+.bit-header {
+  height: 10vh;
+  margin: 0 2px;
+}
+
+.content {
+  height: 75vh;
+  padding: 0 10px;
+  overflow-y: scroll;
+}
+
+.homepage__menu {
+  font-size: 0.9em;
+  justify-content: center;
+  text-transform: uppercase;
+  border-top: solid 1px #aaa8a8;
+}
+
+.homepage__menu li {
+  border-right: solid 1px #aaa8a8;
+}
+
+.homepage__menu li:nth-last-child(2) {
+  border-right: none;
+}
+
+.ant-layout-header {
+  border-radius: 10px;
+}

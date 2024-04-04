@@ -1,0 +1,41 @@
+.bit-header div {
+  height: 100%;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ant-layout-header {
+  padding: 0 20px;
+}
+
+.back {
+  justify-content: flex-start;
+}
+
+.next {
+  justify-content: flex-end;
+}
+
+.schedule__create {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  font-size: 17px;
+  margin-left: 15%;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.homepage .schedule__create > button {
+  width: 70%;
+  border-radius: 25px;
+}
+
+.button-default {
+  color: #fff;
+  background-color: #444444;
+}

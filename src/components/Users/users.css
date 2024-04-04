@@ -1,0 +1,48 @@
+.header__options {
+  height: 100%;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__options .ant-input-group-addon > button {
+  display: none;
+}
+
+.checkbox {
+  margin-right: 5px;
+  transform: scale(1.3, 1.3);
+}
+
+.user__form {
+  opacity: 1;
+  height: 100%;
+  padding: 10px;
+  margin: 0 2px;
+  visibility: visible;
+  transition-duration: 0.4s;
+  border: solid 1px #cbcbcb;
+  border-radius: 0 0 8px 10px;
+  transition-property: opacity;
+  box-shadow: 1px 1px 5px -2px #b8b8b8;
+  transition-timing-function: ease-in-out;
+}
+
+.user__form-hidden {
+  opacity: 0;
+  padding: 0;
+  max-height: 0;
+  visibility: hidden;
+}
+
+.user__form__items {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content__userslist {
+  height: calc(75vh - 10px);
+}
